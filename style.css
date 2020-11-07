@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+    /*---wraper---*/
+    .wrapper{
+        width: 1200px;
+        height: auto;
+        margin:0 auto; 
+        height: 60px;
+    }
+     /*---header---*/
+    .header {width: 1200px;height: auto;padding: 5px;
+        background-color: seagreen; 
+        color: #fff;
+        text-align: center;  font-size: 24px;          
+          }
+ /*---menu---*/
+ .menu{
+     width: 1200px;
+     height: 40px;
+     background-color: slateblue;
+ }
+ .menu ul{
+     margin: 0;
+     padding: 0;
+    list-style-type: none;
+ }
+ .menu ul li{display: inline-block; position: relative;margin: 10px; }
+
+ .menu ul li a{display: block;
+               font-size: 24px;                          
+                 text-decoration: none; 
+                font-family: arial;
+                padding: 2px 14px;
+            color: #fff; }
+
+            .menu ul li ul{ display: none;
+                   position: absolute;
+                padding: 10px;
+            background-color:#595959;
+        border-radius: 8px;}
+        .menu ul li ul li{width: 160px;border-bottom: 2px solid #fff;
+                           border-radius: 5px;text-align: center;}
+
+                           .menu ul li ul li a{ padding: 10px;}
+                           .menu ul li ul li a:hover{background-color:#9b4a55;}
+                           
+                           .menu ul li:hover ul{display: block;}        
+/*---main---*/
+.main{width: 1200px;
+            margin: 0 auto;
+               height: auto;}
+.left{background-color: sandybrown;
+                              width:400px;
+                              font-size: 20px;
+                            float:left;
+                            height: auto;
+                            overflow: hidden;
+                            margin-left: 5px;
+                            }
+  .middle{background-color:#444; float:left;
+                                width:400px;
+                                font-size: 20px;
+                                height: auto;
+                                overflow:hidden;
+                              }
+ .right{background-color:#650; float:right;
+                                width:390px;font-size: 20px;
+                                overflow:hidden;
+                                height: auto;
+                                margin-right:5px;
+                                padding: 2px;
+                              }
+.footer{background-color: #959595;width: 1200px;
+                             height: auto; overflow:hidden;
+                              margin-top: 5px;}
+.footer h3{font-size: 26px;text-align: center;color: #fff;}
+ .footer p{text-align: center;font-size: 20px;}
+ .menu ul li:hover ul{display: block;}        
+        
+        
+/*---main---*/
+img{width: 80px;float: left;border-radius: 50%; margin-top:none;
+height: 80px;}
+.btn{}
+    
